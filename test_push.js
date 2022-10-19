@@ -8,6 +8,8 @@ import stars from '../img/stars.jpg';
 
 const monkeyUrl = new URL('../assets/monkey.glb', import.meta.url);
 
+// sterge acest comentariu
+
 // create the render named like renderer
 const renderer = new THREE.WebGLRenderer();
 // set shadowMap for shadows
