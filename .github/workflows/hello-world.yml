@@ -1,5 +1,4 @@
 name: 'Hello World!'
-description: 'Saying hello to the world!'
 on:
   push:
     branches: [master]
