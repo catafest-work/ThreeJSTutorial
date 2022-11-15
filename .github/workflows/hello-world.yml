@@ -1,0 +1,12 @@
+name: 'Hello World!'
+description: 'Saying hello to the world!'
+author: 'Cătălin George Feștilă <catafest@yahoo.com>'
+
+on:[push, pull_request]
+jobs: 
+  hello-world
+  runs-on: ubuntu-lastest
+  steps:
+  - uses: actions/checkout@v2
+  - uses: ./
+
