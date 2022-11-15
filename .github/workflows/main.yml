@@ -1,0 +1,7 @@
+name: 'Hello World!'
+description: 'Saying hello to the world!'
+author: 'Cătălin George Feștilă <catafest@yahoo.com>'
+
+runs: 
+  using: 'node12'
+  main: 'test_action.js'
