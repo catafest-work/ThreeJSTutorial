@@ -1,7 +1,5 @@
 name: 'Hello World!'
 description: 'Saying hello to the world!'
-author: 'Cătălin George Feștilă <catafest@yahoo.com>'
-
 on:
   push:
     branches: [master]
