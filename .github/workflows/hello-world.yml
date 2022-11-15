@@ -2,11 +2,14 @@ name: 'Hello World!'
 description: 'Saying hello to the world!'
 author: 'Cătălin George Feștilă <catafest@yahoo.com>'
 
-on:[push, pull_request]
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
 jobs: 
-  hello-world
-  runs-on: ubuntu-lastest
-  steps:
-  - uses: actions/checkout@v2
-  - uses: ./
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: catafest-work/ThreeJSTutorial@master
 
